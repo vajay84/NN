@@ -1,14 +1,10 @@
-import numpy as np
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.layers import LSTM
-from tensorflow.keras.layers import Dropout
-import matplotlib.pyplot as plt
-import joblib
-import pandas as pd
 from os.path import join
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from sklearn.preprocessing import MinMaxScaler
 
 data_root_path = r"/home/ajay/my_projects/neural_networks/Part+3+-+" \
                  r"Recurrent+Neural+Networks/Part 3 - Recurrent Neural Networks"
