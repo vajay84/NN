@@ -49,3 +49,6 @@ regressor.compile(optimizer=optimizer, loss=tf.keras.losses.mse,
 callbcks = [tf.keras.callbacks.EarlyStopping(patience=10)]
 history = regressor.fit(x_train, y, epochs=100, batch_size=32, validation_split=0.2)
 
+regressor.save('stock_price.h5')
+
+
